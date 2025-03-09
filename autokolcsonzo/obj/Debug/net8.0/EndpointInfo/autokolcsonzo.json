@@ -1,0 +1,707 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "autokolcsonzo",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/autoks": {
+      "get": {
+        "tags": [
+          "autoks"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/autok"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/autok"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/autok"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "autoks"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/autoks/{id}": {
+      "get": {
+        "tags": [
+          "autoks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/autok"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "autoks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/autok"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "autoks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/kolcsonzeseks": {
+      "get": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/kolcsonzeseks/ugyfel/{ugyfelid}": {
+      "get": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "parameters": [
+          {
+            "name": "ugyfelid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/kolcsonzesek"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/kolcsonzeseks/{id}": {
+      "get": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/kolcsonzesek"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/kolcsonzesek"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "kolcsonzeseks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ugyfeleks": {
+      "get": {
+        "tags": [
+          "ugyfeleks"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ugyfelek"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ugyfelek"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ugyfelek"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ugyfeleks"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ugyfeleks/{id}": {
+      "get": {
+        "tags": [
+          "ugyfeleks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ugyfelek"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ugyfeleks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ugyfelek"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ugyfeleks"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "autok": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "marka": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipus": {
+            "type": "string",
+            "nullable": true
+          },
+          "ev": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "arnaponta": {
+            "type": "number",
+            "format": "double"
+          },
+          "kolcsonzesek": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/kolcsonzesek"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "kolcsonzesek": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ugyfelid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ugyfelek": {
+            "$ref": "#/components/schemas/ugyfelek"
+          },
+          "autoid": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "autok": {
+            "$ref": "#/components/schemas/autok"
+          },
+          "kezdes": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "vegzes": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ugyfelek": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nev": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "kolcsonzesek": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/kolcsonzesek"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

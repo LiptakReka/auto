@@ -1,0 +1,355 @@
+[
+  {
+    "ContainingType": "autokolcsonzo.Controllers.autoksController",
+    "Method": "Getautok",
+    "RelativePath": "api/autoks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[autokolcsonzo.Models.autok, autokolcsonzo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.autoksController",
+    "Method": "Postautok",
+    "RelativePath": "api/autoks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autok",
+        "Type": "autokolcsonzo.Models.autok",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.autok",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.autoksController",
+    "Method": "Getautok",
+    "RelativePath": "api/autoks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.autok",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.autoksController",
+    "Method": "Putautok",
+    "RelativePath": "api/autoks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autok",
+        "Type": "autokolcsonzo.Models.autok",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.autoksController",
+    "Method": "Deleteautok",
+    "RelativePath": "api/autoks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "Getkolcsonzesek",
+    "RelativePath": "api/kolcsonzeseks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[autokolcsonzo.Models.kolcsonzesek, autokolcsonzo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "Postkolcsonzesek",
+    "RelativePath": "api/kolcsonzeseks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kolcsonzesek",
+        "Type": "autokolcsonzo.Models.kolcsonzesek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.kolcsonzesek",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "Getkolcsonzesek",
+    "RelativePath": "api/kolcsonzeseks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.kolcsonzesek",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "Putkolcsonzesek",
+    "RelativePath": "api/kolcsonzeseks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "kolcsonzesek",
+        "Type": "autokolcsonzo.Models.kolcsonzesek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "Deletekolcsonzesek",
+    "RelativePath": "api/kolcsonzeseks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.kolcsonzeseksController",
+    "Method": "GetkolcsonzesekByUgyfel",
+    "RelativePath": "api/kolcsonzeseks/ugyfel/{ugyfelid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ugyfelid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[autokolcsonzo.Models.kolcsonzesek, autokolcsonzo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.ugyfeleksController",
+    "Method": "Getugyfelek",
+    "RelativePath": "api/ugyfeleks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[autokolcsonzo.Models.ugyfelek, autokolcsonzo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.ugyfeleksController",
+    "Method": "Postugyfelek",
+    "RelativePath": "api/ugyfeleks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ugyfelek",
+        "Type": "autokolcsonzo.Models.ugyfelek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.ugyfelek",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.ugyfeleksController",
+    "Method": "Getugyfelek",
+    "RelativePath": "api/ugyfeleks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "autokolcsonzo.Models.ugyfelek",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.ugyfeleksController",
+    "Method": "Putugyfelek",
+    "RelativePath": "api/ugyfeleks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ugyfelek",
+        "Type": "autokolcsonzo.Models.ugyfelek",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autokolcsonzo.Controllers.ugyfeleksController",
+    "Method": "Deleteugyfelek",
+    "RelativePath": "api/ugyfeleks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

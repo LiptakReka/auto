@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\models\\kolcsonzesek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\models\\kolcsonzesek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\data\\autokolcsonzodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\data\\autokolcsonzodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\models\\ugyfelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\models\\ugyfelek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\controllers\\kolcsonzesekscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\controllers\\kolcsonzesekscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\controllers\\autokscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\controllers\\autokscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\controllers\\ugyfelekscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\controllers\\ugyfelekscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Migrations\\20250309182553_keszits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:autokolcsonzo\\Migrations\\20250309182553_keszits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|c:\\users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\models\\autok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9894D6F8-0EE6-4776-AF22-91ED144EC932}|autokolcsonzo\\autokolcsonzo.csproj|solutionrelative:autokolcsonzo\\models\\autok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "kolcsonzeseksController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\kolcsonzeseksController.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Controllers\\kolcsonzeseksController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\kolcsonzeseksController.cs",
+              "RelativeToolTip": "autokolcsonzo\\Controllers\\kolcsonzeseksController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:32:04.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ugyfelek.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\ugyfelek.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Models\\ugyfelek.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\ugyfelek.cs",
+              "RelativeToolTip": "autokolcsonzo\\Models\\ugyfelek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:14:48.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kolcsonzesek.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\kolcsonzesek.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Models\\kolcsonzesek.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\kolcsonzesek.cs*",
+              "RelativeToolTip": "autokolcsonzo\\Models\\kolcsonzesek.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:15:25.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "autokolcsonzoDbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Data\\autokolcsonzoDbcontext.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Data\\autokolcsonzoDbcontext.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Data\\autokolcsonzoDbcontext.cs",
+              "RelativeToolTip": "autokolcsonzo\\Data\\autokolcsonzoDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:18:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ugyfeleksController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\ugyfeleksController.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Controllers\\ugyfeleksController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\ugyfeleksController.cs",
+              "RelativeToolTip": "autokolcsonzo\\Controllers\\ugyfeleksController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:26:46.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "autoksController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\autoksController.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Controllers\\autoksController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Controllers\\autoksController.cs",
+              "RelativeToolTip": "autokolcsonzo\\Controllers\\autoksController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:31:10.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250309182553_keszits.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Migrations\\20250309182553_keszits.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Migrations\\20250309182553_keszits.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Migrations\\20250309182553_keszits.cs",
+              "RelativeToolTip": "autokolcsonzo\\Migrations\\20250309182553_keszits.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:25:53.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Program.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Program.cs",
+              "RelativeToolTip": "autokolcsonzo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:14:06.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\appsettings.json",
+              "RelativeDocumentMoniker": "autokolcsonzo\\appsettings.json",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\appsettings.json",
+              "RelativeToolTip": "autokolcsonzo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T18:22:24.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "autok.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\autok.cs",
+              "RelativeDocumentMoniker": "autokolcsonzo\\Models\\autok.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\autokolcsonzo\\autokolcsonzo\\Models\\autok.cs",
+              "RelativeToolTip": "autokolcsonzo\\Models\\autok.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:14:59.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
